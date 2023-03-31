@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Project/test/crc16-x25",
-      "program": "c:/Project/test/crc16-x25/build/Debug/outDebug",
+      "program": "c:/Project/test/crc16-x25/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -33,11 +33,12 @@ uint16_t crc16_x25(const uint8_t *data, size_t len) {
 int main() {
     generate_crc16_x25_table();
 
-    uint8_t data[] ="Hello World!";
+    uint8_t data[] ="123456789";
     size_t data_len = sizeof(data) - 1;
 
     uint16_t crc = crc16_x25(data, data_len);
     printf("CRC16 X25 checksum: 0x%04X\n", crc);
+    printf("CRC16 X25 wright answer: 0x906E\n");
 
     return 0;
 }
